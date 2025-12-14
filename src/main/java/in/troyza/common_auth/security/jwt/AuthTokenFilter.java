@@ -1,4 +1,4 @@
-package in.troyza.common_auth.security.jwt;
+package in.troyza.commonAuth.security.jwt;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package in.troyza.common_auth.security;
+package in.troyza.commonAuth.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,9 +16,9 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import in.troyza.common_auth.security.jwt.AuthEntryPointJwt;
-import in.troyza.common_auth.security.jwt.AuthTokenFilter;
-import in.troyza.common_auth.security.jwt.JwtUtils;
+import in.troyza.commonAuth.security.jwt.AuthEntryPointJwt;
+import in.troyza.commonAuth.security.jwt.AuthTokenFilter;
+import in.troyza.commonAuth.security.jwt.JwtUtils;
 
 @Configuration
 @EnableWebSecurity

@@ -1,4 +1,4 @@
-package in.troyza.common_auth.util;
+package in.troyza.commonAuth.util;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

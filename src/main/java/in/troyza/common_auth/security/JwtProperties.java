@@ -1,4 +1,4 @@
-package in.troyza.common_auth.security;
+package in.troyza.commonAuth.security;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

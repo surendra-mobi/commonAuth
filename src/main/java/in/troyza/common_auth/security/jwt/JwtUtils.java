@@ -1,4 +1,4 @@
-package in.troyza.common_auth.security.jwt;
+package in.troyza.commonAuth.security.jwt;
 import java.security.Key;
 import java.util.Date;
 import java.util.Map;
@@ -11,7 +11,7 @@ import org.springframework.http.ResponseCookie;
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.WebUtils;
 
-import in.troyza.common_auth.security.JwtProperties;
+import in.troyza.commonAuth.security.JwtProperties;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;
