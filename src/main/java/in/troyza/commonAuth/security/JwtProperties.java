@@ -1,7 +1,9 @@
 package in.troyza.commonAuth.security;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
+@Component
 @ConfigurationProperties(prefix = "auth.jwt")
 public class JwtProperties {
     private String secret;
